@@ -1,0 +1,11 @@
+C:\Users\PC\playground-csharp\GenericsLab\bin\Debug\net8.0\GenericsLab.deps.json
+C:\Users\PC\playground-csharp\GenericsLab\bin\Debug\net8.0\GenericsLab.dll
+C:\Users\PC\playground-csharp\GenericsLab\bin\Debug\net8.0\GenericsLab.pdb
+C:\Users\PC\playground-csharp\GenericsLab\obj\Debug\net8.0\GenericsLab.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\playground-csharp\GenericsLab\obj\Debug\net8.0\GenericsLab.AssemblyInfoInputs.cache
+C:\Users\PC\playground-csharp\GenericsLab\obj\Debug\net8.0\GenericsLab.AssemblyInfo.cs
+C:\Users\PC\playground-csharp\GenericsLab\obj\Debug\net8.0\GenericsLab.csproj.CoreCompileInputs.cache
+C:\Users\PC\playground-csharp\GenericsLab\obj\Debug\net8.0\GenericsLab.dll
+C:\Users\PC\playground-csharp\GenericsLab\obj\Debug\net8.0\refint\GenericsLab.dll
+C:\Users\PC\playground-csharp\GenericsLab\obj\Debug\net8.0\GenericsLab.pdb
+C:\Users\PC\playground-csharp\GenericsLab\obj\Debug\net8.0\ref\GenericsLab.dll

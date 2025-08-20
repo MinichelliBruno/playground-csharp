@@ -1,0 +1,9 @@
+C:\Users\PC\playground-csharp\GenericsLab\bin\Debug\netstandard2.1\GenericsLab.deps.json
+C:\Users\PC\playground-csharp\GenericsLab\bin\Debug\netstandard2.1\GenericsLab.dll
+C:\Users\PC\playground-csharp\GenericsLab\bin\Debug\netstandard2.1\GenericsLab.pdb
+C:\Users\PC\playground-csharp\GenericsLab\obj\Debug\netstandard2.1\GenericsLab.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\playground-csharp\GenericsLab\obj\Debug\netstandard2.1\GenericsLab.AssemblyInfoInputs.cache
+C:\Users\PC\playground-csharp\GenericsLab\obj\Debug\netstandard2.1\GenericsLab.AssemblyInfo.cs
+C:\Users\PC\playground-csharp\GenericsLab\obj\Debug\netstandard2.1\GenericsLab.csproj.CoreCompileInputs.cache
+C:\Users\PC\playground-csharp\GenericsLab\obj\Debug\netstandard2.1\GenericsLab.dll
+C:\Users\PC\playground-csharp\GenericsLab\obj\Debug\netstandard2.1\GenericsLab.pdb
