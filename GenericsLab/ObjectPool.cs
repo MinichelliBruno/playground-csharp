@@ -42,4 +42,19 @@ where T : class, IResettable, new()
             _items.Add(item);
         }
     }
+
+    public Lease RentLease() => new(this, Rent());
+    public readonly struct Lease : IDisposable
+    {
+        public readonly ObjectPool<T> Pool;
+        public readonly T Item;
+
+        internal Lease(ObjectPool<T> pool, T item)
+        {
+            Pool = pool;
+            Item = item;
+        }
+
+        public void Dispose() => Pool.Return(Item);
+    }
 }

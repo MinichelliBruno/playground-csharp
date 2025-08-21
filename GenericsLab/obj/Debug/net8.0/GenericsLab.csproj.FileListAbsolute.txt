@@ -9,3 +9,4 @@ C:\Users\PC\playground-csharp\GenericsLab\obj\Debug\net8.0\GenericsLab.dll
 C:\Users\PC\playground-csharp\GenericsLab\obj\Debug\net8.0\refint\GenericsLab.dll
 C:\Users\PC\playground-csharp\GenericsLab\obj\Debug\net8.0\GenericsLab.pdb
 C:\Users\PC\playground-csharp\GenericsLab\obj\Debug\net8.0\ref\GenericsLab.dll
+C:\Users\PC\playground-csharp\GenericsLab\obj\Debug\net8.0\GenericsLab.sourcelink.json

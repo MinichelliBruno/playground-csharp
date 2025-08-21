@@ -16,3 +16,4 @@ C:\Users\PC\playground-csharp\Playground\obj\Debug\net8.0\refint\Playground.dll
 C:\Users\PC\playground-csharp\Playground\obj\Debug\net8.0\Playground.pdb
 C:\Users\PC\playground-csharp\Playground\obj\Debug\net8.0\Playground.genruntimeconfig.cache
 C:\Users\PC\playground-csharp\Playground\obj\Debug\net8.0\ref\Playground.dll
+C:\Users\PC\playground-csharp\Playground\obj\Debug\net8.0\Playground.sourcelink.json

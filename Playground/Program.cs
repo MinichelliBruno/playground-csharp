@@ -21,6 +21,11 @@ pool.Return(a);
 var b = pool.Rent();
 Console.WriteLine($"Pooled builder capacity: {b.Sb.Capacity}");
 pool.Return(b);
+
+
+using var lease = pool.RentLease();
+lease.Item.Sb.Append("Duh");
+Console.WriteLine($"{lease.Item.Sb}");
 return;
 
 
