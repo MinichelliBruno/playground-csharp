@@ -29,6 +29,8 @@ where T : class, IResettable, new()
         _onReturn = onReturn ?? (item => item.Reset());
     }
 
+    #region API
+    
     public int Count => _items.Count;
 
     public T Rent() => _items.TryTake(out var item) ? item : _factory?.Invoke() ?? new T();
@@ -43,18 +45,52 @@ where T : class, IResettable, new()
         }
     }
 
+    public void WarmUp(int count)
+    {
+        if (count <= 0)
+        {
+            return;
+        }
+
+        for (var i = 0; i < count && _items.Count < _maxSize; i++)
+        {
+            var item = _factory?.Invoke() ?? new T();
+            _items.Add(item);
+        }
+    }
+
+    public bool TryRent(out T? item)
+    {
+        if (_items.TryTake(out var gotItem))
+        {
+            item = gotItem;
+            return true;
+        }
+
+        item = null;
+        return false;
+    }
+
+    #endregion
+
+   
+
+    #region Lease
+
     public Lease RentLease() => new(this, Rent());
     public readonly struct Lease : IDisposable
     {
-        public readonly ObjectPool<T> Pool;
+        private readonly ObjectPool<T> _pool;
         public readonly T Item;
 
         internal Lease(ObjectPool<T> pool, T item)
         {
-            Pool = pool;
+            _pool = pool;
             Item = item;
         }
 
-        public void Dispose() => Pool.Return(Item);
+        public void Dispose() => _pool.Return(Item);
     }
+
+    #endregion
 }

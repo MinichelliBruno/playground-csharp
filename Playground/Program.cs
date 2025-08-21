@@ -4,6 +4,19 @@ using System.Text;
 Console.WriteLine("Demo ObjectPool<T>");
 
 var pool = new ObjectPool<PooledStringBuilder>(maxSize: 32, factory: InitializePooledStringBuilder, onReturn: OnPooledBuilderReturnCallback);
+pool.WarmUp(4);
+
+if (pool.TryRent(out var test))
+{
+    test!.Sb.Append("No alloc rent");
+    Console.WriteLine($"{test.Sb}");
+    pool.Return(test);
+     
+}  
+else
+{
+    Console.WriteLine("Unable to rent, no allocated items.");
+}
 
 // covariant
 IPool<IResettable> poolAsInterface = pool;
