@@ -1,5 +1,8 @@
-﻿using GenericsLab;
+﻿using System.Globalization;using GenericsLab;
 using System.Text;
+using ReflectionLab;
+
+#region Object Pool
 
 Console.WriteLine("Demo ObjectPool<T>");
 
@@ -39,6 +42,28 @@ pool.Return(b);
 using var lease = pool.RentLease();
 lease.Item.Sb.Append("Duh");
 Console.WriteLine($"{lease.Item.Sb}");
+#endregion Object Pool
+
+#region Reflection, attributes
+
+Console.WriteLine("---- SavableSerializer demo ----");
+
+var serializableData = new SerializableData
+{
+    Name = "Bruno",
+    Surname = "Minichelli",
+    Age = 32
+};
+
+var dict = SavableSerializer.Serialize(serializableData);
+
+foreach (var keyValuePair in dict)
+{
+    Console.WriteLine($"{keyValuePair.Key} + {keyValuePair.Value}");
+}
+
+#endregion
+
 return;
 
 
@@ -61,4 +86,11 @@ internal class PooledStringBuilder : IResettable
 {
     public StringBuilder Sb { get; } = new();
     public void Reset() => Sb.Clear();
+}
+
+internal class SerializableData
+{
+    [Savable] public string Name { get; set; } = "a";
+    [Savable] public string Surname { get; set; } = "b";
+    [Savable("Vueltas al sol")] public int Age { get; set; } = 32;
 }

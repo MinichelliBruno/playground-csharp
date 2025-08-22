@@ -11,6 +11,16 @@
         "runtime": {
           "bin/placeholder/GenericsLab.dll": {}
         }
+      },
+      "ReflectionLab/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/ReflectionLab.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ReflectionLab.dll": {}
+        }
       }
     }
   },
@@ -19,11 +29,17 @@
       "type": "project",
       "path": "../GenericsLab/GenericsLab.csproj",
       "msbuildProject": "../GenericsLab/GenericsLab.csproj"
+    },
+    "ReflectionLab/1.0.0": {
+      "type": "project",
+      "path": "../ReflectionLab/ReflectionLab.csproj",
+      "msbuildProject": "../ReflectionLab/ReflectionLab.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "GenericsLab >= 1.0.0"
+      "GenericsLab >= 1.0.0",
+      "ReflectionLab >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -57,6 +73,9 @@
           "projectReferences": {
             "C:\\Users\\PC\\playground-csharp\\GenericsLab\\GenericsLab.csproj": {
               "projectPath": "C:\\Users\\PC\\playground-csharp\\GenericsLab\\GenericsLab.csproj"
+            },
+            "C:\\Users\\PC\\playground-csharp\\ReflectionLab\\ReflectionLab.csproj": {
+              "projectPath": "C:\\Users\\PC\\playground-csharp\\ReflectionLab\\ReflectionLab.csproj"
             }
           }
         }

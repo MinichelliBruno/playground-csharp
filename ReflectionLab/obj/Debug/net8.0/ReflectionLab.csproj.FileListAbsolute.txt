@@ -1,0 +1,12 @@
+C:\Users\PC\playground-csharp\ReflectionLab\bin\Debug\net8.0\ReflectionLab.deps.json
+C:\Users\PC\playground-csharp\ReflectionLab\bin\Debug\net8.0\ReflectionLab.dll
+C:\Users\PC\playground-csharp\ReflectionLab\bin\Debug\net8.0\ReflectionLab.pdb
+C:\Users\PC\playground-csharp\ReflectionLab\obj\Debug\net8.0\ReflectionLab.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\playground-csharp\ReflectionLab\obj\Debug\net8.0\ReflectionLab.AssemblyInfoInputs.cache
+C:\Users\PC\playground-csharp\ReflectionLab\obj\Debug\net8.0\ReflectionLab.AssemblyInfo.cs
+C:\Users\PC\playground-csharp\ReflectionLab\obj\Debug\net8.0\ReflectionLab.csproj.CoreCompileInputs.cache
+C:\Users\PC\playground-csharp\ReflectionLab\obj\Debug\net8.0\ReflectionLab.sourcelink.json
+C:\Users\PC\playground-csharp\ReflectionLab\obj\Debug\net8.0\ReflectionLab.dll
+C:\Users\PC\playground-csharp\ReflectionLab\obj\Debug\net8.0\refint\ReflectionLab.dll
+C:\Users\PC\playground-csharp\ReflectionLab\obj\Debug\net8.0\ReflectionLab.pdb
+C:\Users\PC\playground-csharp\ReflectionLab\obj\Debug\net8.0\ref\ReflectionLab.dll

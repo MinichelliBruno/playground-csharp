@@ -2,6 +2,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\GenericsLab\GenericsLab.csproj" />
+    <ProjectReference Include="..\ReflectionLab\ReflectionLab.csproj" />
   </ItemGroup>
 
   <PropertyGroup>
