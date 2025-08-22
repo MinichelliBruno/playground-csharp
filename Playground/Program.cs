@@ -48,7 +48,7 @@ Console.WriteLine($"{lease.Item.Sb}");
 
 Console.WriteLine("---- SavableSerializer demo ----");
 
-var serializableData = new SerializableData
+var serializableData = new SavableData
 {
     Name = "Bruno",
     Surname = "Minichelli",
@@ -62,6 +62,16 @@ foreach (var keyValuePair in dict)
     Console.WriteLine($"{keyValuePair.Key} + {keyValuePair.Value}");
 }
 
+Console.WriteLine("---- SavableSerializer demo ----");
+
+var rangeIntData = new RangeIntData
+{
+    Age = 10,
+    AgeString = "Bruce"
+};
+
+var errors = Validation.ValidateRangeInt(rangeIntData);
+errors.ForEach(e => Console.WriteLine($"Error: {e}"));
 #endregion
 
 return;
@@ -88,9 +98,17 @@ internal class PooledStringBuilder : IResettable
     public void Reset() => Sb.Clear();
 }
 
-internal class SerializableData
+internal class SavableData
 {
     [Savable] public string Name { get; set; } = "a";
     [Savable] public string Surname { get; set; } = "b";
     [Savable("Vueltas al sol")] public int Age { get; set; } = 32;
 }
+
+internal class RangeIntData
+{
+    [RangeInt(0, 10)] public int Age { get; set; } = 0;
+    [RangeInt(0, 10)] public string AgeString { get; set; } = string.Empty;
+    [RangeInt(0, 10)] private int _ageOutOfRange = 11;
+}
+
