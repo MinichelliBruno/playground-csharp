@@ -2,7 +2,7 @@ using System.Reflection;
 
 namespace ReflectionLab;
 
-public static class Validation
+public static class RangeIntValidation
 {
     private const BindingFlags Flags = BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance;
     

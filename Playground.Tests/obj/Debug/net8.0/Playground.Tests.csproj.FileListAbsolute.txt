@@ -100,3 +100,4 @@ C:\Users\PC\playground-csharp\Playground.Tests\obj\Debug\net8.0\refint\Playgroun
 C:\Users\PC\playground-csharp\Playground.Tests\obj\Debug\net8.0\Playground.Tests.pdb
 C:\Users\PC\playground-csharp\Playground.Tests\obj\Debug\net8.0\Playground.Tests.genruntimeconfig.cache
 C:\Users\PC\playground-csharp\Playground.Tests\obj\Debug\net8.0\ref\Playground.Tests.dll
+C:\Users\PC\playground-csharp\Playground.Tests\obj\Debug\net8.0\Playground.Tests.sourcelink.json

@@ -4,5 +4,9 @@
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=fd4a85ea_002D820d_002D460d_002D8f93_002Dce9b4ca26355/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="ObjectPool_StringBuilder_Tests" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;xUnit::41B5CF66-2787-4BF4-AA6A-06D47A26E832::net8.0::Playground.Tests.ObjectPool_StringBuilder_Tests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::DB4921AE-8A54-4AE4-B74F-0DC8A848304D::net8.0::ReflectionLab.Tests.Week2_Validation_Tests.Validation_ReturnsError_WhenValueOutOfRange&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::DB4921AE-8A54-4AE4-B74F-0DC8A848304D::net8.0::ReflectionLab.Tests.Week2_Validation_Tests.Validation_Ok_WhenValuesInRange&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::DB4921AE-8A54-4AE4-B74F-0DC8A848304D::net8.0::ReflectionLab.Tests.Week2_Serializer_Tests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::DB4921AE-8A54-4AE4-B74F-0DC8A848304D::net8.0::ReflectionLab.Tests.Week2_Serializer_Indexer_Tests.Serialize_SkipsIndexedProperties&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

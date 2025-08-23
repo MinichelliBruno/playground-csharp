@@ -44,7 +44,7 @@ lease.Item.Sb.Append("Duh");
 Console.WriteLine($"{lease.Item.Sb}");
 #endregion Object Pool
 
-#region Reflection, attributes
+#region Reflection, attributes, records
 
 Console.WriteLine("---- SavableSerializer demo ----");
 
@@ -62,7 +62,7 @@ foreach (var keyValuePair in dict)
     Console.WriteLine($"{keyValuePair.Key} + {keyValuePair.Value}");
 }
 
-Console.WriteLine("---- SavableSerializer demo ----");
+Console.WriteLine("---- Validate demo ----");
 
 var rangeIntData = new RangeIntData
 {
@@ -70,8 +70,25 @@ var rangeIntData = new RangeIntData
     AgeString = "Bruce"
 };
 
-var errors = Validation.ValidateRangeInt(rangeIntData);
+var errors = RangeIntValidation.ValidateRangeInt(rangeIntData);
 errors.ForEach(e => Console.WriteLine($"Error: {e}"));
+
+Console.WriteLine("---- Records demo ----");
+
+var playerData1 = new PlayerData("Bruce", 10);
+var playerData2 = new PlayerData("Bruce", 10);
+
+Console.WriteLine($"{nameof(playerData1)} == {nameof(playerData2)}?: {playerData1 == playerData2}");
+
+var guildData1 = new GuildData
+{
+    Name = "Guild",
+    MaxMembers = 20
+};
+
+var guildData2 = guildData1 with { MaxMembers = 60 };
+
+Console.WriteLine($"{nameof(guildData1)} == {nameof(guildData2)}?: {guildData1 == guildData2}");
 #endregion
 
 return;
@@ -109,6 +126,5 @@ internal class RangeIntData
 {
     [RangeInt(0, 10)] public int Age { get; set; } = 0;
     [RangeInt(0, 10)] public string AgeString { get; set; } = string.Empty;
-    [RangeInt(0, 10)] private int _ageOutOfRange = 11;
 }
 

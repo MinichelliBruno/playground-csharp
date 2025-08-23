@@ -51,6 +51,10 @@ public static class SavableSerializer
         var properties = type.GetProperties(Flags);
         foreach (var property in properties)
         {
+            if (property.GetIndexParameters().Length > 0)
+            {
+                continue;
+            }
             var savable = property.GetCustomAttribute<SavableAttribute>();
             if (savable == null)
             {
