@@ -7,3 +7,4 @@ C:\Users\PC\playground-csharp\GenericsLab\obj\Release\netstandard2.1\GenericsLab
 C:\Users\PC\playground-csharp\GenericsLab\obj\Release\netstandard2.1\GenericsLab.csproj.CoreCompileInputs.cache
 C:\Users\PC\playground-csharp\GenericsLab\obj\Release\netstandard2.1\GenericsLab.dll
 C:\Users\PC\playground-csharp\GenericsLab\obj\Release\netstandard2.1\GenericsLab.pdb
+C:\Users\PC\playground-csharp\GenericsLab\obj\Release\netstandard2.1\GenericsLab.sourcelink.json

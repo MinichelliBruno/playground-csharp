@@ -1,0 +1,10 @@
+C:\Users\PC\playground-csharp\ReflectionLab\bin\Release\netstandard2.1\ReflectionLab.deps.json
+C:\Users\PC\playground-csharp\ReflectionLab\bin\Release\netstandard2.1\ReflectionLab.dll
+C:\Users\PC\playground-csharp\ReflectionLab\bin\Release\netstandard2.1\ReflectionLab.pdb
+C:\Users\PC\playground-csharp\ReflectionLab\obj\Release\netstandard2.1\ReflectionLab.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\playground-csharp\ReflectionLab\obj\Release\netstandard2.1\ReflectionLab.AssemblyInfoInputs.cache
+C:\Users\PC\playground-csharp\ReflectionLab\obj\Release\netstandard2.1\ReflectionLab.AssemblyInfo.cs
+C:\Users\PC\playground-csharp\ReflectionLab\obj\Release\netstandard2.1\ReflectionLab.csproj.CoreCompileInputs.cache
+C:\Users\PC\playground-csharp\ReflectionLab\obj\Release\netstandard2.1\ReflectionLab.sourcelink.json
+C:\Users\PC\playground-csharp\ReflectionLab\obj\Release\netstandard2.1\ReflectionLab.dll
+C:\Users\PC\playground-csharp\ReflectionLab\obj\Release\netstandard2.1\ReflectionLab.pdb
