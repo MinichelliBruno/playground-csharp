@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GenericsLab")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5a7994215a04077f2fa8ec67813a7c5ec47547a1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+93c44b33b5314642d45b4d7750ca224667efeb60")]
 [assembly: System.Reflection.AssemblyProductAttribute("GenericsLab")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GenericsLab")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
